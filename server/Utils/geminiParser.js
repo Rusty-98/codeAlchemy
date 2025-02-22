@@ -28,7 +28,7 @@ ${text}
   try {
     const result = await model.generateContent(prompt);
     let responseText = result.response.text();
-    console.log("Raw Gemini output:", responseText);
+    // console.log("Raw Gemini output:", responseText);
     
     // Clean up the response in case it's wrapped in triple backticks
     let cleanedText = responseText.trim();
@@ -40,7 +40,7 @@ ${text}
     return parsedData;
     
   } catch (error) {
-    console.error("Error generating content with Gemini:", error);
+    // console.error("Error generating content with Gemini:", error);
     throw new Error("Google Gemini API call failed.");
   }
 }
