@@ -65,7 +65,7 @@ function App() {
       const token = await getToken();
 
       const response = await axios.post(
-        'http://localhost:5000/api/files/upload',
+        'https://codealchemy.onrender.com/api/files/upload',
         { text },
         {
           responseType: 'blob',
