@@ -1,0 +1,19 @@
+{
+  "name": "codealchemy-telegram-bot",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "nodemon bot.js"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "archiver": "^7.0.0",
+    "dotenv": "^16.0.0",
+    "node-telegram-bot-api": "^0.66.0",
+    "stream-buffers": "^3.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  }
+}
